@@ -1,0 +1,32 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slide {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+@keyframes scaleAndBounce {
+0%, 100% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.2);
+}
+}    
+.intro-text {
+        animation: scaleAndBounce 2s ease-in-out infinite;
+        font-size: 24px;
+        color: #0077b6;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+      }
